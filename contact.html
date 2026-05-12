@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Pro Master Wallcovering for wallpaper, painting, drywall, flooring, tile and renovation estimates in Canada.">
+  <title>Contact | Pro Master Wallcovering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Work+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Pro Master Wallcovering home">
+      <span class="brand-mark">PM</span>
+      <span><strong>Pro Master</strong><small>Wallcovering</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About Us</a>
+      <a class="nav-cta active" href="contact.html">Get a Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero contact-hero">
+      <div>
+        <p class="eyebrow">Contact us</p>
+        <h1>Tell us about your renovation or wallcovering project.</h1>
+        <p>Send a few details and we will follow up to discuss scope, timing and next steps.</p>
+      </div>
+    </section>
+
+    <section class="section contact-layout">
+      <form class="quote-form" action="https://formsubmit.co/Santiago.echeverria@promasterwallcovering.com" method="POST">
+        <input type="hidden" name="_subject" value="New quote request from Pro Master Wallcovering website">
+        <input type="hidden" name="_captcha" value="false">
+        <div>
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div>
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel">
+        </div>
+        <div>
+          <label for="service">Service needed</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option>Wallpaper fitting</option>
+            <option>Painting</option>
+            <option>Demolition and renovation</option>
+            <option>Drywall installation</option>
+            <option>Tile work</option>
+            <option>Floor laying</option>
+            <option>Multiple services</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Project details</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button class="button primary" type="submit">Send Request</button>
+      </form>
+
+      <aside class="contact-aside">
+        <p class="eyebrow">Direct contact</p>
+        <h2>Prefer to call or email?</h2>
+        <div class="contact-lines">
+          <span>Santiago Echeverria Huacuja</span>
+          <a href="tel:+15879849970">587 984-9970</a>
+          <a href="mailto:Santiago.echeverria@promasterwallcovering.com">Santiago.echeverria@promasterwallcovering.com</a>
+        </div>
+        <hr>
+        <h3>Useful details to include</h3>
+        <ul>
+          <li>Project type and approximate size</li>
+          <li>City or service location in Canada</li>
+          <li>Photos, drawings or measurements if available</li>
+          <li>Preferred timeline for the work</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Pro Master Wallcovering</strong>
+      <p>Wallpaper, painting, drywall, flooring, tile and renovation services in Canada.</p>
+    </div>
+    <div>
+      <span>Santiago Echeverria Huacuja</span>
+      <a href="tel:+15879849970">587 984-9970</a>
+      <a href="mailto:Santiago.echeverria@promasterwallcovering.com">Santiago.echeverria@promasterwallcovering.com</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
